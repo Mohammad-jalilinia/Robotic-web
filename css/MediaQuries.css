@@ -1,0 +1,289 @@
+@media only screen and (max-width: 399px) { /*397 - 658*/
+    ul > li {
+        display: none;
+    }
+    img.logo {
+        width: 100px;
+    }
+    div.header-logo {
+        padding: 40px 0px 15px 70%;
+    }
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    .banner_img > img {
+        width: 100%;
+        padding: 50px 0px 0px 0px;
+        position: relative;
+        top: 125px;
+        left: 25px;
+    }
+    .banner-subtext {
+        padding: 0px 0px 0px 0px;
+        color: white;
+        font-size: 15px;
+        position: relative;
+        padding-left: 0%;
+        bottom: 50%;
+        margin-left: 15px;
+
+    }
+    .banner_text {
+        padding: 0px 0px 0px 0px;
+        font-size: 25px;
+        font-weight: 300;
+        width: 91%;
+        position: relative;
+        bottom: 52%;
+
+    }
+    .banner-btn {
+        background-color: white;
+        font-size: 10px;
+        padding: 10px 15px;
+        margin-left: 4%;
+        position: absolute;
+        margin-top: -360px;
+    }
+    .product{
+        display: block;
+
+    }
+    .first-product,.second-product,.third-product,.forth-product{
+        margin-right:-28px;
+    }
+
+}
+
+@media only screen and (min-width:400px) { /*647*/
+
+    ul > li {
+        display: inline;
+        color: white;
+        font-size: 9px;
+        padding-right: -15px;
+        padding-left: 0px;
+        margin-left: -15px;
+
+    }
+    img.logo {
+        width: 120px;
+    }
+    div.header-logo {
+        padding: 20px 0px 0px 20px;
+        position: relative;
+        top: 0px;
+        left: 5px;
+
+    }
+    .banner_img > img {
+        width: 80%;
+        padding: 80px 10% 0px 0px;
+        position: relative;
+        top: 90px;
+        left: 80px;
+
+    }
+    .banner-subtext{
+        padding:0px 0px 0px 0px;
+        color: white;
+        font-size: 11px;
+        position: relative;
+        margin-left: 5%;
+        bottom: 55%;
+    }
+    .banner_text{
+        padding: 180px 0px 0px 0px;
+        font-size: 40px;
+        font-weight: 300;
+        width: 90%;
+        position: relative;
+        bottom: 57%;
+    }
+    .banner-btn{
+        font-size: 13px;
+        padding: 13px 21px;
+        margin-left:5%;
+        position: relative;
+        bottom: 410px;
+    }
+    .product{
+        display: block;
+    }
+    .first-product,.second-product,.third-product,.forth-product{
+        margin-right:-42px;
+    }
+
+}
+
+@media only screen and (min-width:650px){ /*847*/
+    ul>li{
+        display: inline;
+        color: white;
+        font-size: 12px;
+        padding-right:4px;
+    }
+    div.header-logo{
+        padding: 20px 0px 0px 60px;
+    }
+    .banner_img >img {
+        width: 60%;
+        position: relative;
+        padding: 50px 0px 0px 0px;
+        left:200px;
+        top: 0px;
+    }
+    .banner-subtext{
+        padding: 0px 0px 0px 7%;
+        color: white;
+        font-size: 18px;
+        position:absolute;
+        bottom: 39%;
+        margin-left: 10px;
+
+    }
+    .banner_text{
+        padding: 195px 40% 0px 0px;
+        font-size: 40px;
+        font-weight: 300;
+        width: 52%;
+        position:absolute;
+        bottom: 310px;
+        margin-left:65px;
+    }
+    .banner-btn{
+        font-size: 13px;
+        padding: 13px 10px;
+        margin-left: 8%;
+        position: relative;
+        top:405px;
+    }
+    .product{
+        display:block;
+    }
+
+}
+
+@media only screen and (min-width:850px){  /*1097*/
+    div.header-logo {
+        padding: 20px 0px 0px 80%;
+        margin-left: -850px;
+        left: 105px;
+
+    }
+    ul>li{
+        display: inline;
+        color: white;
+        font-size: 13px;
+        padding-right: 20px;
+    }
+    .banner_img > img {
+        width: 80%;
+        padding: 50px 0px 0px 0px;
+        position: relative;
+        top: 0px;
+        left:115px;
+    }
+    .banner-subtext {
+        padding: 0px 0px 0px 0px;
+        color: white;
+        font-size: 14px;
+        position: relative;
+        padding-left:13%;
+        bottom:-56%;
+        margin-left:0%;
+    }
+    .banner_text {
+        padding: 44px 0px 0px 80px;
+        font-size: 35px;
+        font-weight: 300;
+        width: 29%;
+        position: absolute;
+        bottom:40%;
+
+    }
+    .banner-btn {
+        background-color: white;
+        font-size: 20px;
+        padding: 17px 80px;
+        margin-left: 13%;
+        position: relative;
+        margin-top:45px;
+    }
+    .product{
+        display: flex;
+        padding-left: 1%;
+    }
+    .first-product,.second-product,.third-product,.forth-product{
+        margin-right:0px;
+    }
+
+}
+
+@media only screen and (min-width:1100px){
+    div.header-logo{
+        padding: 20px 0px 0px 80px;
+        margin-left: 50px;
+        left: 0px;
+
+    }
+    ul>li{
+        display: inline;
+        color: white;
+        font-size: 15px;
+        padding-right:30px;
+
+    }
+    .banner_img >img {
+        width: 100%;
+        position: relative;
+        left: 50px;
+        top:-95px;
+    }
+    .banner-subtext{
+        padding: 0px 0px 0px 8%;
+        position: relative;
+        bottom:-52%;
+        font-size: 20px;
+    }
+    .banner_text{
+        padding: 500px 30% 30px 50px;
+        font-size: 45px;
+        width: 40%;
+
+    }
+    .banner-btn{
+        margin-left: 110px;
+        bottom: 200px;
+        padding: 20px 80px;
+        margin-top: 20px;
+    }
+    .first-product,.second-product,.third-product,.forth-product{
+        margin-left:59px;
+    }
+
+}
+
+@media only screen and (min-width:1400px){
+    .banner_text{
+       bottom: 50%;
+       padding:500px 30% 30px 40px;
+       margin-left: 112px;
+    }
+    .banner-subtext{
+        padding: 0px 0px 0px 10%;
+        bottom: -46%;
+    }
+    .banner-btn{
+        margin-left: 155px;
+        margin-top:-35px;
+    }
+    .banner_img{
+        padding: 215px 15% 0px 0px;
+    }
+    .first-product,.second-product,.third-product,.forth-product{
+        margin-left:7%;
+    }
+
+}
